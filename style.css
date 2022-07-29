@@ -37,7 +37,7 @@ body {
 
 .brand-title h1 {
   font-family: "Cormorant SC", sans-serif;
-  color: #eb1d36;
+  color: #fff;
   margin-bottom: 0;
   font-weight: bold;
   text-decoration: none;
@@ -54,7 +54,7 @@ body {
 }
 
 .brand-title h1:hover{
-  color:#fff;
+  color:#eb1d36;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
 }
