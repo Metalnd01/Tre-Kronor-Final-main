@@ -45,7 +45,7 @@ body {
 
 .brand-title span{
   color: white;
-  font-weight: lighter;
+  font-weight: light;
   font-size:medium;
 }
 
@@ -67,7 +67,7 @@ body {
   color: #fff;
 }
 
-.brand-title p:hover{
+.brand-title p:hover, .simbolo:hover{
   color: #eb1d36;
   transition: all 0.4s ease-in-out;
 }
@@ -76,8 +76,9 @@ body {
     display: inline-block;
     content: "";
     border-top: .2rem solid #fff;
-    width: 4rem;
-    margin: -0.6rem 1rem ;
+    width: 3rem;
+    margin: -0.7rem -7rem;
+    padding-left: -1rem;
     transform: translateY(-1rem);
 }
 
@@ -640,8 +641,19 @@ footer .container-small {
     display: flex;
   }
 
+  .brand-title h1 {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+
   .brand-title p {
-    margin-left: 0.55em;
+    margin-top: 0%;
+    margin-left: 0em;
+    padding: 0.2rem;
+  }
+
+  #subtitle::before, #subtitle::after{
+    margin: -0.7rem -7rem;
   }
 
   .container img {
